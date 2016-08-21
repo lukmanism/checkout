@@ -9,7 +9,7 @@ npm install express
 ```
 ## Getting the page up
 
-From the `checkout/` directory, execute this line from your terminal:
+From the `checkout/` directory, execute this line in your terminal:
 ```
 node index.js
 ```

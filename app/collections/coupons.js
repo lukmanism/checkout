@@ -12,6 +12,7 @@ define(function (require){
 			name: '$20 Off',
 			description: 'Etiam porta sem malesuada magna mollis euismod.',
 			code: 'AAA20',
+			value: 20,
 			created: '05/22/2015 03:54:38 PM'
 		},
 		{
@@ -19,6 +20,7 @@ define(function (require){
 			name: '50% Seasonal Off',
 			description: 'Etiam porta sem malesuada magna mollis euismod.',
 			code: 'SS50',
+			value: '50%',
 			created: '05/22/2015 03:54:38 PM'
 		},
 		{
@@ -26,6 +28,7 @@ define(function (require){
 			name: 'Special Discount $50',
 			description: 'Etiam porta sem malesuada magna mollis euismod.',
 			code: 'SP50',
+			value: 50,
 			created: '05/22/2015 03:54:38 PM'
 		}
 	]);

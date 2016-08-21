@@ -3,12 +3,12 @@ define(function(require){
 	
 	require('backbone');
 
-	var advertsTemplate		= require('text!../tpl/adverts.html');
+	var menusTemplate		= require('text!../tpl/menus.html');
 
 	var thisView = Backbone.View.extend({
-		tagName: 'div',
-		className: 'col-xs-12 col-md-4 col-lg-4 advert',
-		template: _.template(advertsTemplate),
+		tagName: 'li',
+		className: 'menus',
+		template: _.template(menusTemplate),
 		initialize: function(){
 			this.render();
 		},

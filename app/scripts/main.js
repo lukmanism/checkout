@@ -5,8 +5,8 @@
 	paths: {
 		jquery		: 'scripts/vendor/jquery/dist/jquery',
 		express		: 'scripts/vendor/express/index',
-		underscore	: 'scripts/vendor/underscore-amd/underscore',
-		backbone	: 'scripts/vendor/backbone-amd/backbone',
+		underscore	: 'scripts/vendor/underscore/underscore',
+		backbone	: 'scripts/vendor/backbone/backbone',
 		bootstrap	: 'scripts/vendor/bootstrap/dist/js/bootstrap',
 		text		: 'scripts/text',
 		router		: 'scripts/router',

@@ -7,7 +7,7 @@ define(function(require){
 	var routers =  Backbone.Router.extend({
 		routes: {
 			''			:'getIndex', // default page is index page
-			'users/:id'		:'getUsers',
+			'users/:id'	:'getUsers',
 		},
 		getIndex: function(param){
 			this.getView(require('views/Index'), page);
@@ -16,17 +16,12 @@ define(function(require){
 			// this.id  = param;
 			this.getView(require('views/Users'), page, param);
 		},
-		menusSidebar: function(){
-	        var Sidebar = require('views/Sidebar');
-	        new Sidebar;
-		},
 		getView: function(thatView, target, id){
 			if (currView) { // remove zombie view method
 			    currView.remove();
 			    target.empty();
 			}
 
-			// this.menusSidebar();
 
 			currView = new thatView();
 			currView.id = (typeof id === 'undefined')? 0: parseInt(id);

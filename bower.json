@@ -18,10 +18,10 @@
     "tests"
   ],
   "dependencies": {
-    "backbone-amd": null,
+    "backbone": null,
     "jquery": null,
     "requirejs": null,
-    "underscore-amd": null,
+    "underscore": null,
     "bootstrap": null,
     "jasmine": null
   }

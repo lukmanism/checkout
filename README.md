@@ -27,4 +27,6 @@ Please make sure your browser's adblock deactivated. At some point the newer ver
 
 ## Brief info on the project
 
-I've approached the project as a Frontend Developer role, heavy on the frontend technologies(BackboneJS, UnderscoreJs, Bootstrap, jQuery & RequireJS) & the UX, and a very lightweight UI work. I've designed the collections & models(tables & relations) too, to suit the database/backend skills for your review, ideally, this was coming from a webservice. The basic test cases made to match your `Example Scenarios`, with a lil extra test for my requirements. Altho, I must admit that there are more test cases and development work to be done just to complete the tip of *POC's* stage.
+I've approached the project as a Frontend Developer role, heavy on the frontend technologies(BackboneJS, UnderscoreJs, Bootstrap, jQuery & RequireJS) & the UX, and a very lightweight UI work. I've designed the collections & models(tables & relations) too, to suit the database/backend skillset for your review, ideally, this was coming from a webservice. The basic test cases are made to match your `Example Scenarios`, with a lil extra test for my requirements. Altho, I must admit that there are more test cases and development work to be done just to complete the tip of *POC's* stage. With that, I leave you with the best possible work within your required timeframe. Let me know if there's any.
+
+Thank you.

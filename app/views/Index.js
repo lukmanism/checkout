@@ -23,7 +23,6 @@ define(function(require){
 		},
 		initialize: function(){
 			this.render();
-			$('.header-title h3').html('MVM4 Login');
 		},
 		render: function(){
 			this.$el.append(this.template());
